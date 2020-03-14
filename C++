@@ -1,0 +1,46 @@
+A fucntion is a self contained program with a name and when excuted any time can carry out a specific task
+when called by its name.
+Loops
+A loop a group of code that is executed repeatedly until a specified condition is satisfied
+
+1. Loop Control variable
+2. Initialise counter
+3. Condtional Test
+4. Re-evaluation parameter
+
+Sample Code
+for looop
+#include<iostream>
+using namespace std;
+main()
+{
+	int x;
+	char name[10];
+	cout<<"Enter Your Name\n";
+	cin>>name;
+	cout<<"Enter number of times\n";
+	cin>>x;
+	for(int y=0;y<x;y++)
+	cout<<name<<"\n";
+}
+while loop
+#include<iostream>
+using namespace std;
+main()
+{
+	int x;
+	char name[10];
+	cout<<"Enter Your Name\n";
+	cin>>name;
+	cout<<"Enter number of times\n";
+	cin>>x;
+	int y = 0;
+	
+	while(x>y)
+	{
+		cout<<name;
+		y++;
+	}
+
+}
+do while loop
